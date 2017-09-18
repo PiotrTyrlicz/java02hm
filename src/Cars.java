@@ -2,7 +2,7 @@ public class Cars
 {
         public static void main(String[] args) {
             Car car1 = new Car("BMW", "M5", 2007, 2.6); //marka, model, rocznik, pojemność silnika
-            Car car2 = car1;
+            Car car2 = new Car("Opel", "Vectra", 2004, 1.8);
 
             System.out.println("Samochód 1:");
             System.out.println("Marka: " + car1.brand + ", model: " + car1.model +
